@@ -1,4 +1,5 @@
 
 node_modules
 .idea
-public/img
+public
+public/index.html

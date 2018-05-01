@@ -21,10 +21,11 @@ module.exports = {
 	mode: 'development',
 	output: {
 		path    : PATHS.PUBLIC,
-		filename: 'bundle.js'
+		filename: 'bundle.js',
+		publicPath: '/'
 	},
 	devServer: {
-		contentBase: PATHS.ASSETS,
+		contentBase: PATHS.PUBLIC,
 		hot        : true
 	},
 	resolve: {

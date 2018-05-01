@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux'
-import { fetchData } from './js/services/redux/actions';
+import { fetchData } from './js/servises/redux/actions';
 
 // import './styles/App.css';
 // import './styles/common.css';
@@ -29,7 +29,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-			
+				hello dude here
 			</div>
 		);
 	}
