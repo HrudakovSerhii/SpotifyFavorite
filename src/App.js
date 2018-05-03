@@ -6,6 +6,10 @@ import { fetchData } from './js/servises/redux/actions';
 // import './styles/App.css';
 // import './styles/common.css';
 
+import Routes from 'Routes';
+import Header from './js/containers/Header';
+import Footer from './js/containers/Footer';
+
 function mapStateToProps (state) {
 	return {
 		appData: state.appData
@@ -29,7 +33,9 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				hello dude here
+				<Header />
+				<Routes />
+				<Footer />
 			</div>
 		);
 	}
